@@ -1,0 +1,559 @@
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .navbar {
+        height: 90px;
+    }
+
+    .navbar .menu {
+        flex-wrap: wrap;
+    }
+
+    .navbar .menu>li {
+        margin: 0 10px;
+    }
+
+    .first .banner .banner-desc {
+        padding-left: 50px;
+    }
+
+    .first .banner .banner-desc .banner-title {
+        color: inherit;
+    }
+
+    .first .banner .banner-desc .banner-button {
+        background-color: #fff;
+    }
+
+
+    .first .banner .banner-desc .banner-email {
+        color: #fff;
+    }
+
+    .first .social {
+        line-height: 50px;
+    }
+
+    .catalog-list .swiper-slide {
+    }
+
+    .about .about-desc p {
+        width: 70%;
+    }
+
+    .about .about-img img {
+        width: 70%;
+    }
+
+    .advantages {
+        margin-top: -25%;
+        padding-left: 0;
+    }
+
+    .advantages .advantages-title {
+        width: 100%;
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .advantages .advantages-title h3 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .advantages .advantages-que {
+        height: 50%;
+        text-align: center;
+    }
+
+    .advantages .advantages-que span:first-child {
+        line-height: 0px;
+        font-size: 40px;
+    }
+
+    .advantages .advantages-que span:last-child {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .catalog-list {
+        margin-top: 20%;
+    }
+
+    .catalog-list .swiper-slide .swiper-slide-img img {
+        display: block;
+        width: 100%;
+    }
+
+    .about .about-img .img-desc {
+        top: 24%;
+    }
+
+    .stone-list .stone-list-title {
+        padding: 0 30px;
+        width: 30%;
+    }
+
+    .request {
+        padding: 20px;
+    }
+
+    .request .request-slider .swiper-slide {
+        width: 40%;
+    }
+
+    .calculate .calculate-button {
+        width: 100%;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footer .footer-subs .footer-form .form-button {
+        right: 21px;
+    }
+
+}
+
+
+
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .navbar {
+        height: 75px;
+    }
+
+    .navbar .menu {
+        font-size: 14px;
+    }
+
+    .navbar .menu>li {
+        margin: 0 5px;
+    }
+
+    .navbar .nav-tel span {
+        font-size: 14px;
+    }
+
+    .first .delive {
+        background-color: #fff;
+        line-height: 35px;
+    }
+
+    .first .banner .banner-desc .banner-title {
+        color: #fff;
+        font-size: 50px;
+    }
+
+    .advantages {
+        margin-top: -28%;
+    }
+
+    .advantages .advantages-que {
+        height: 60%;
+    }
+
+    .advantages .advantages-title {
+        font-size: 28px;
+    }
+
+    .advantages .advantages-que span:first-child {
+        font-size: 31px;
+    }
+
+    .catalog-list .swiper-slide {
+    }
+
+    .catalog-list .catalog-list-title .list-title-2 {
+        font-size: 28px;
+    }
+
+    .about {
+        padding: 30px 0;
+    }
+
+    .about .about-desc {
+        padding-left: 0;
+    }
+
+    .about .about-desc p {
+        line-height: 24px;
+    }
+
+    .about .about-img .img-desc span {
+        padding: 0;
+        line-height: 22px;
+    }
+
+    .about .about-img .img-desc {
+        width: 50%;
+        height: 25%;
+    }
+
+    .footer {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+
+    .footer>div {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer .footer-subs .footer-form input[type='email'] {
+        width: 192px;
+    }
+
+    .footer .footer-subs,
+    .footer-instafeed {
+        flex-grow: 1;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .footer .footer-subs .footer-subs-desc {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .footer .footer-subs .footer-links ul li {
+        margin: 0 8px;
+    }
+
+    .footer .footer-subs .footer-form .form-button {
+        width: 90px;
+        right: 20px;
+    }
+
+    .footer .footer-subs .footer-form .form-button a {
+        font-size: 9px;
+    }
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 820px) {
+    .navbar {
+        flex-wrap: wrap;
+        height: 100%;
+        padding: 20px;
+    }
+
+    .first .banner .banner-desc {
+        padding-left: 0;
+        padding-right: 0;
+        width: 100%;
+    }
+
+    .first .banner .banner-desc .banner-title {
+        margin-top: 10%;
+        text-align: center;
+        color: #000;
+    }
+
+    .first .banner .banner-desc .banner-button {
+        margin: 30px auto;
+    }
+
+    .advantages {
+        width: 100%;
+        height: 35%;
+        position: relative;
+        margin-top: 12%;
+    }
+
+    .catalog-list {
+        flex-wrap: wrap;
+    }
+
+    .catalog-list .catalog-list-title {
+        width: 100%;
+        align-self: center;
+        align-items: center;
+        padding-left: 0;
+        margin-bottom: 50px;
+    }
+
+    .catalog-list .swiper-slide {
+        text-align: center;
+    }
+
+    .catalog-list .swiper-slide .swiper-slide-desc {
+        width: 100%;
+    }
+
+    .about {
+        flex-wrap: wrap;
+    }
+
+    .about .about-img {
+        width: 100%;
+    }
+
+    .about .about-desc {
+        text-align: center;
+        width: 100%;
+    }
+
+    .about .about-desc p {
+        width: 100%;
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+
+    .first .delive,
+    .social {
+        width: 6%;
+    }
+
+    .first .banner .banner-desc .banner-email {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .about .about-desc .about-desc-button {
+        margin: 30px auto;
+    }
+
+    .stone-list {
+        flex-wrap: wrap;
+    }
+
+    .stone-list .stone-list-title {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+
+    .stone-list-title .swiper-nav {
+        justify-content: center;
+    }
+
+    .request-slider {
+        text-align: center;
+    }
+
+    .request .request-slide-head .request-slide-head-raty {
+        justify-content: center;
+    }
+
+    .request .request-slide-social {
+        justify-content: center;
+    }
+
+    .request .request-slide-social a {
+        font-size: 30px;
+    }
+
+    .request .request-slide-desc {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .calculate .calculate-title {
+        font-size: 24px;
+    }
+
+    .footer>div {
+        width: 100%;
+    }
+
+    .footer .footer-menu {
+        text-align: center;
+    }
+
+    .footer .footer-subs .footer-links ul {
+        justify-content: center;
+    }
+
+    .footer .footer-subs .footer-form input[type='email'] {
+        width: 90%;
+    }
+
+    .footer .footer-subs .footer-form .form-button {
+        width: 30%;
+    }
+
+    .footer .footer-contact {
+        text-align: center;
+    }
+
+    .footer .footer-contact .footer-contact-social {
+        justify-content: center;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 768px) {
+
+    .main-menu {
+        height: 50px;
+        width: 100%;
+        order: 1;
+        background-color: #F7F7F7;
+    }
+
+    .container-menu {
+        width: 100%;
+    }
+
+    .navigation {
+        float: left;
+        display: block;
+        width: 100%;
+    }
+
+    .core-menu {
+        float: right;
+        width: 100%;
+        background: #ffffff;
+        z-index: 9999;
+        margin: auto;
+        display: none;
+        position: absolute;
+        top: 55px;
+    }
+
+    .core-menu li {
+        width: 100%;
+        display: block;
+    }
+
+    .core-menu li a {
+        display: block;
+        margin: auto;
+    }
+
+    .hamburger-menu {
+        display: block;
+        text-align: center;
+        padding-right: 60px;
+        float: none;
+    }
+
+    .burger-1,
+    .burger-2,
+    .burger-3 {
+        display: block;
+        position: absolute;
+        width: 20px;
+        height: 3px;
+        border-radius: 30px;
+        left: 0;
+        margin-left: 25px;
+        background: #000;
+        -webkit-transition: .2s ease;
+        -ms-transition: .2s ease;
+        -moz-transition: .2s ease;
+        -o-transition: .2s ease;
+        transition: .2s ease;
+    }
+
+    .burger-1 {
+        top: 15px;
+    }
+
+    .burger-2 {
+        top: 23px;
+    }
+
+    .burger-3 {
+        top: 31px;
+    }
+
+    .burger-1.open,
+    .burger-2.open,
+    .burger-3.open {
+        -webkit-transition: .2s ease;
+        -ms-transition: .2s ease;
+        -moz-transition: .2s ease;
+        -o-transition: .2s ease;
+        transition: .2s ease;
+        transform-origin: 50% 50%;
+    }
+
+    .burger-1.open {
+        top: 25px;
+        width: 23px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        -moz-transform: rotate(45deg);
+        -o-transform: rotate(45deg);
+    }
+
+    .burger-2.open {
+        opacity: 0;
+    }
+
+    .burger-3.open {
+        top: 25px;
+        width: 23px;
+        transform: rotate(-45deg);
+    }
+
+    .dropdown {
+        width: 100%;
+        background: #F7F7F7;
+        text-align: center;
+        position: relative;
+        padding: 0;
+    }
+
+    .dropdown2 {
+        right: 0;
+        top: 0;
+        width: 100%;
+        position: relative;
+        padding: 0 20px;
+    }
+
+    .first .banner .banner-desc .banner-title {
+        font-size: 30px;
+    }
+
+    .first .social {
+        display: none;
+    }
+
+    .first .delive, .social {
+        display: none;
+    }
+
+    .first .banner .banner-desc .banner-email {
+        color: #000;
+        background-color: #fff;
+    }
+
+    .action-img::before {
+        left: 35%;
+    }
+
+    .advantages {
+        background-color: #fff;
+        background-image: none;
+    }
+
+    .advantages .advantages-title {
+        margin: 15px auto;
+    }
+
+    .advantages .advantages-que {
+        width: 100%;
+        margin: 10px;
+    }
+
+    .catalog-list .catalog-list-title .list-title-3 {
+        text-align: center;
+    }
+
+    .swiper-container {
+        text-align: center;
+    }
+
+    .footer .footer-subs .footer-form .form-button {
+        right: 0;
+    }
+}
