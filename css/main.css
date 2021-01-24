@@ -1259,3 +1259,321 @@ li span.toggle2 {
     margin: 0;
     padding: 0;
 }
+
+.stone-box {
+    display: flex;
+    padding: 70px 150px;
+}
+
+.stone-box .stone-leftside {
+    flex: 0 0 30%;
+    padding: 30px 100px;
+}
+
+
+.stone-box .stone-leftside .stone-leftside-title {
+    font-size: 24px;
+    font-weight: bold;
+    width: 72%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.stone-box .stone-leftside .stone-leftside-title::before {
+    content: '';
+    width: 8px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: #FD351A;
+    left: -20px;
+}
+
+.stone-box .stone-leftside .stone-leftside-desc {
+    font-size: 15px;
+    color: #757272;
+    width: 72%;
+    margin-bottom: 40px;
+}
+
+.stone-box .stone-leftside .stone-leftside-quest {
+    color: #FD351A;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 35px;
+}
+
+.stone-box .stone-leftside .stone-leftside-button {
+    height: 50px;
+    width: 65%;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    position: relative;
+}
+
+.stone-box .stone-leftside .stone-leftside-button a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: bold;
+    color: #282828;
+}
+
+.stone-box .stone-leftside .stone-leftside-button::after {
+    content: "\f35a";
+    font-family: Font Awesome\ 5 Free;
+    display: block;
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    right: 15px;
+    color: #FD351A;
+}
+
+.stone-box .stone-catalog {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 0 0 50%;
+}
+
+.stone-box .stone-catalog .stone-catalog-item {
+    flex: 0 0 30%;
+    position: relative;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button {
+    width: 47px;
+    height: 47px;
+    border: 4px solid #FD351A;
+    border-radius: 50px;
+    position: absolute;
+    bottom: 70px;
+    right: 12px;
+    background-color: #FD351A;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button a {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 47px;
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button a i {
+    color: #000;
+    line-height: 47px;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button span:first-child {
+    display: none;
+    margin: 0 auto;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button span:last-child {
+    display: block;
+    border-radius: 50px;
+    width: 47px;
+    height: 47px;
+    background-color: #ffffff;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button:hover {
+    width: 207px;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-button:hover span:first-child {
+    display: block;
+}
+
+.stone-box .stone-catalog 
+.stone-catalog-item .stone-catalog-link {
+    font-size: 19px;
+    font-weight: 600;
+    padding: 15px 30px;
+}
+
+.feedback {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background: url('../img/logo-head.png') no-repeat top center #F7F7F7;
+    padding-bottom: 50px;
+}
+
+.feedback .feedback-title {
+    font-size: 34px;
+    font-weight: 800;
+    font-family: MonsterratB, sans-serif;
+    text-transform: uppercase;
+    margin: 65px auto;
+}
+
+.feedback .feedback-form {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.feedback .feedback-form .feedback-form-group {
+    flex: 0 0 45%;
+    margin-bottom: 50px;
+}
+
+.feedback .feedback-form 
+.feedback-form-group:nth-last-child(-n+2) {
+    flex: 0 0 100%;
+}
+
+.feedback .feedback-form 
+.feedback-form-group label {
+    font-size: 16px;
+    font-family: "MonsterratB";
+}
+
+.feedback .feedback-form 
+.feedback-form-group label::after {
+    content: '*';
+    display: inline-block;
+    color: red;
+    font-size: 24px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.feedback .feedback-form .feedback-form-group input {
+    width: 100%;
+    height: 45px;
+    border-bottom: 3px solid #a5a1a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: inherit;
+}
+
+.feedback .feedback-form .feedback-form-group input:focus {
+    border-bottom: 3px solid #FD351A;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: 0;
+}
+
+.feedback .feedback-form 
+.feedback-form-group .feedback-button {
+    height: 63px;
+    background: #FFFFFF;
+    box-shadow: 0px 14px 21px rgba(0, 0, 0, 0.03);
+}
+
+.feedback .feedback-form 
+.feedback-form-group .feedback-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 63px;
+    color: #212121;
+    font-family: "MonsterratB";
+    position: relative;
+}
+
+.feedback .feedback-form 
+.feedback-form-group .feedback-button a i {
+    color: #FD351A;
+    padding-left: 20px;
+}
+
+.page-filter {
+    margin: 0 auto;
+    max-width: 1600px;
+}
+
+.page-filter .button-group{
+    margin: 25px auto;
+    text-align: center;
+}
+
+.page-filter .button-group .button {
+    background-color: #fff;
+    outline: none;
+    cursor: pointer;
+    border: 0;
+    padding: 10px;
+    font-size: 16px;
+    font-family: inherit;
+    font-weight: 600;
+    margin-right: 10px;
+}
+
+.page-filter .button-group .button.is-checked {
+    border-bottom: 2px solid #FD351A;
+    color: red;
+}
+
+.page-filter .stone-product-list {
+   margin: 0 auto;
+}
+
+.page-filter .stone-product-list:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.page-filter .stone-product-list .stone-product-item {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.page-filter .stone-product-list .stone-product-item a {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+    margin: 10px;
+}
+
+.page-filter .button-more {
+    width: 100%;
+    height: 63px;
+    margin: 40px auto;
+    border: 1px solid rgba(0, 0, 0, 0.22);
+}
+
+.page-filter .button-more a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 63px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    color: #212121;
+    font-family: "MonsterratB";
+}
+
+.page-filter .button-more a i {
+    color: red;
+}
