@@ -1801,3 +1801,233 @@ li span.toggle2 {
     color: #FD351A;
     margin-left: 10px;
 }
+
+.articles {
+    max-width: 1300px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.articles .article-item {
+    flex: 0 0 30%;
+    margin: 20px 0;
+}
+
+.articles .article-item .article-img {
+    object-fit: fill;
+    position: relative;
+}
+
+.articles .article-item .article-img span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    height: 31px;
+    background-color: black;
+    color: white;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.articles .article-item .article-img img {
+    display: block;
+}
+
+.articles .article-item .article-link .article-link-data {
+    font-size: 14px;
+    color: #8691A0;
+    margin: 10px 0;
+    padding-left: 10px;
+}
+
+.articles .article-item .article-link .article-link-data i {
+    margin-right: 10px;
+}
+
+.articles .article-item .article-link {
+    margin: 15px 0;
+}
+
+.articles .article-item .article-link a {
+    font-size: 22px;
+    color: #000000;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.articles .article-item .article-shortdesc {
+    font-size: 16px;
+    color: #727272;
+}
+
+.article-main {
+    max-width: 1600px;
+    margin: 50px auto;
+    display: flex;
+}
+
+.article-main .article-body {
+    flex: 0 0 70%;
+}
+
+.article-main .article-body .article-date {
+    font-size: 14px;
+    color: #8691A0;
+}
+
+.article-main .article-body .article-date i {
+    margin-right: 10px;
+}
+
+.article-main .article-body .article-text {
+    padding: 20px;
+}
+
+.article-main .article-body .article-text h1 {
+    font-weight: bold;
+    font-size: 25px;
+    color: #0D0D0D;
+}
+
+.article-main .article-body .article-text h2 {
+    font-size: 18px;
+}
+
+.article-main .article-body .article-text p {
+    color: #727272;
+    margin: 30px 0;
+}
+
+.article-main .article-body .article-text ul {
+    list-style: none;
+    color: #727272;
+    position: relative;
+    padding-left: 15px;
+}
+
+.article-main .article-body .article-text ul:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: red;
+    top: 0;
+    left: -5px;
+}
+
+.article-main .article-body .article-text ul li {
+    margin: 10px 0;
+}
+
+.article-main .article-body .article-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.article-main .article-body .article-footer 
+.article-footer-catalog {
+    position: relative;
+    height: 30px;
+}
+
+.article-main .article-body .article-footer .article-footer-catalog:before {
+    content: '';
+    display: block;
+    width: 5px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    background-color: red;
+}
+
+.article-main .article-body .article-footer .article-footer-catalog a{
+    font-weight: bold;
+    text-decoration: none;
+    color: #000;
+    line-height: 30px;
+}
+
+.article-main .article-body .article-footer .article-footer-catalog a i {
+    margin-left: 10px;
+}
+
+.article-main .article-body .article-footer 
+.article-footer-share span, 
+.article-main .article-body .article-footer 
+.article-footer-share a {
+    color: #757272;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.article-sidebar .article-sidebar-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.article-sidebar .article-sidebar-popular 
+.article-sidebar-list ul{
+    list-style: none;
+    padding: 0;
+}
+
+.article-sidebar .article-sidebar-popular 
+.article-sidebar-list ul li {
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #CDCDCD;
+    padding: 20px 0;
+}
+
+.article-sidebar .article-sidebar-popular 
+.article-sidebar-list ul li a {
+    font-size: 22px;
+    font-weight: 600;
+    text-decoration: none;
+    color: #000;
+}
+
+.article-sidebar .article-sidebar-popular 
+.article-sidebar-list ul li > div {
+    margin: 20px;
+}
+
+.article-sidebar-list ul li div > div {
+    font-size: 14px;
+    color: #8691A0;
+    margin: 10px 0;
+}
+
+.article-sidebar-list ul li div > div i {
+    margin-right: 10px;
+}
+
+.article-sidebar .article-sidebar-category 
+.article-sidebar-category-list ul{
+    list-style: none;
+    padding: 0 10px;
+    border-top: 1px solid #CDCDCD;
+}
+
+.article-sidebar .article-sidebar-category 
+.article-sidebar-category-list ul li {
+    font-size: 19px;
+    font-weight: 600;
+    margin: 25px 0;
+}
+
+.article-sidebar .article-sidebar-category 
+.article-sidebar-category-list ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.article-sidebar .article-sidebar-category 
+.article-sidebar-category-list ul li a:hover {
+    color: red;
+}
