@@ -98,12 +98,28 @@ $(document).ready(function ($) {
 });
 
 $(document).ready(function ($) {
-    var swiper4 = new Swiper('.swiper-container', {
+    var swiper4 = new Swiper('.slide-4', {
         navigation: {
           nextEl: '.swiper-button-next-prod',
           prevEl: '.swiper-button-prev-prod',
         },
       });
+});
+
+$(document).ready(function ($) {
+    var swiper5 = new Swiper('.slide-5', {
+        navigation: {
+            nextEl: '.swiper-button-next-port',
+            prevEl: '.swiper-button-prev-port',
+        },
+        pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+          renderBullet: function (index, className) {
+            return '<span class="' + className + '">' + (index + 1) + '</span>';
+          },
+        },
+    });
 });
 
 
