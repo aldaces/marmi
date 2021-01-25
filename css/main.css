@@ -1577,3 +1577,227 @@ li span.toggle2 {
 .page-filter .button-more a i {
     color: red;
 }
+
+
+.vacancies {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.vacancies .vacancies-first {
+    display: flex;
+    margin: 40px 0;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc {
+    flex: 0 0 30%;
+    margin-right: 40px;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc h3 {
+    font-size: 24px;
+    color: #0D0D0D;
+    font-weight: bold;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc p{
+    font-size: 15px;
+    font-weight: 500;
+    color: #757272;
+    position: relative;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc p:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    left: -15px;
+    position: absolute;
+    background-color: #FD351A;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc ul {
+    list-style-image: url('../img/check.svg');
+    font-size: 15px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 0;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc ul li {
+    margin: 15px 0;
+}
+
+.vacancies .vacancies-first .vacancies-first-desc span {
+    font-size: 15px;
+    color: #757272;
+}
+
+.vacancies .vacancies-first .vacancies-first-foto {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vacancies .vacancies-first .vacancies-first-foto div {
+    margin: 15px 0;
+}
+
+.vacancies .vacancies-who {
+    margin: 50px auto;
+}
+
+
+.vacancies .vacancies-who .vacancies-who-title{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0;
+}
+
+.vacancies .vacancies-who .vacancies-who-title h3{
+    font-size: 34px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 80px;
+}
+
+.vacancies .vacancies-who .vacancies-who-title .vacancies-button {
+    height: 80px;
+    width: 20%;
+    border: 1px solid #c9c9c9;
+    background: linear-gradient(90deg, #FF0000 50%, #FFF 50%);
+}
+
+.vacancies .vacancies-who .vacancies-who-title .vacancies-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 80px;
+    font-size: 22px;
+    font-weight: bold;
+    color: black;
+}
+
+.accordion-container {
+	margin: 5px auto;
+}
+.accordion-container .accordion-title{
+	position: relative;
+	display: block;
+    height: 100px;
+	color: #0D0D0D;
+    font-size: 24px;
+    font-family: 'MonsterratB';
+	text-decoration: none;
+	border-radius: 3px;
+	-webkit-transition: background-color 0.2s;
+    transition: background-color 0.2s;
+    border: 1px solid #e5e4e4;
+    box-shadow: 0px 14px 25px rgba(0, 0, 0, 0.08);
+}
+.accordion-container .accordion-title:hover {
+	background-color: #e5e4e4;
+	transition: all 0.5s ease-out;
+}
+
+.accordion-container .accordion-title:before {
+    content: '';
+    width: 5px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    left: -5px;
+    background-color: #FD351A;
+}
+
+.accordion-container .accordion-title .faq__text {
+    display: block;
+    width: 50%;
+    margin: 25px;
+}
+.accordion-container .faq__active {
+	background-color: #fff;
+}
+.accordion-container .accordion-title .faq__spoiler {
+	position: absolute;
+	top: 0px; right:0px;
+	display: inline-block;
+	vertical-align: middle;
+	width: 84px;
+	height: 100%;
+	text-align: center;
+	color: #fff;
+	line-height: 100px;
+	font-size: 20px;
+	font-weight: 700;
+	background-color:#FD351A;
+}
+.accordion-container .faq__rotate {
+	transform: rotate(225deg);
+}
+.accordion-container .faq__content {
+	padding: 30px;
+	margin-bottom: 2px;
+	font-size: 14px;
+	display: none;
+}
+.accordion-container .faq__symbol {
+    font-weight: 700;
+    font-size: 30px;
+    display: block;
+    -webkit-transition: all 0.2s ease-out;
+	transition: all 0.2s ease-out;
+}
+
+.accordion-container .accordion-box {
+    display: flex;
+    justify-content: space-between;
+    color: #646464;
+}
+
+.accordion-container .accordion-box .jobs-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.accordion-container .accordion-box .jobs-list div {
+    flex: 0 0 50%;
+}
+
+.accordion-container .accordion-box .jobs-list span {
+    font-weight: bold;
+}
+
+.accordion-container .accordion-box .jobs-list ul {
+    list-style-image: url('../img/check.svg');
+}
+
+.accordion-container .accordion-box .jobs-list ul li {
+    margin: 10px 0;
+}
+
+.accordion-container .accordion-box .jobs-button {
+    width: 25%;
+    height: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.accordion-container .accordion-box .jobs-button a {
+    display: block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    color: #000000;
+}
+
+.accordion-container .accordion-box .jobs-button a i{
+    color: #FD351A;
+    margin-left: 10px;
+}
