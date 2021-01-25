@@ -2324,3 +2324,124 @@ li span.toggle2 {
     color: black;
 }
 
+.contact {
+    max-width: 1600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact .contact-info {
+    flex: 0 0 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.contact .contact-info h4 {
+    font-size: 20px;
+}
+
+.contact .contact-info div {
+    margin-bottom: 20px;
+}
+
+.contact .contact-info .contact-info-adr div,
+.contact .contact-info .contact-info-time div,
+.contact .contact-info .contact-info-phone div,
+.contact .contact-info .contact-info-soc div{
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.contact .contact-info .contact-info-phone {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact .contact-info .contact-info-soc div{
+    display: flex;
+    margin-left: 10px;
+}
+
+.contact .contact-write {
+    flex: 0 0 70%;
+    align-self: center;
+}
+
+.contact .contact-write .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.contact .contact-write .contact-from-title {
+    font-size: 34px;
+    font-family: "MonsterratB";
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-bottom: 60px;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group {
+    flex: 0 0 45%;
+    margin-bottom: 50px;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group:nth-last-child(-n+2) {
+    flex: 0 0 100%;
+}
+
+.contact .contact-write 
+.contact-form .contact-form-group label {
+    font-size: 16px;
+    font-family: "MonsterratB";
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group label::after {
+    content: '*';
+    display: inline-block;
+    color: red;
+    font-size: 24px;
+    position: absolute;
+    margin-left: 10px;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group input {
+    width: 100%;
+    height: 45px;
+    border-bottom: 3px solid #a5a1a0;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: inherit;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group input:focus {
+    offset: none;
+    outline: none;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group .contact-button {
+    height: 63px;
+    background-color: #131315;
+}
+
+.contact .contact-write .contact-form 
+.contact-form-group .contact-button a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 63px;
+    color: #fff;
+    text-decoration: none;
+}
