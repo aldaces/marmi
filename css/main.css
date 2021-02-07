@@ -58,7 +58,6 @@ body {
     list-style: none;
     display: inline-block;
     cursor: pointer;
-   
 }
 
 .core-menu li a {
@@ -66,7 +65,8 @@ body {
     padding: 1em;
     text-decoration: none;
     color: #131315;
-     position: relative;
+    position: relative;
+    transition: 0.3s ease;
 }
 
 .core-menu li a:hover {
@@ -213,26 +213,52 @@ li span.toggle2 {
     color: #FD351A;
 }
 
-.first .banner .banner-desc .banner-button {
+.button {
     width: 345px;
     height: 82px;
     border: 1px solid #2D2D2D;
     border-radius: 50px;
     background-color: #fff;
-    margin: 50px 0px;
 }
 
-.first .banner .banner-desc .banner-button a {
+.button a {
     display: block;
     text-decoration: none;
     font-size: 19px;
     font-weight: bold;
     text-align: center;
     line-height: 82px;
+    border-radius: 50px;
+    background: transparent;
+    overflow: hidden;
+    transition: all .5s;
     color: #161719;
+    position: relative;
+    z-index: 1;
 }
 
-.first .banner .banner-desc .banner-button a i {
+.button a:hover:after {
+    transform: translate3D(-50%,0,0);
+    transition: all .5s;
+}
+
+.button a:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    background: #FD351A;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    top: 0;
+    z-index: -1;
+    transform: translate3D(-101%,0,0);
+}
+
+.button a i {
     color: #FD351A;
     margin-left: 10px;
 }
@@ -316,8 +342,6 @@ li span.toggle2 {
     flex: 1 1 auto;
     width: 25%;
 }
-
-.advantages .advantages-title h3 {}
 
 .advantages .advantages-title span {
     color: #FD351A;
@@ -440,11 +464,16 @@ li span.toggle2 {
 .catalog-list .swiper-slide {
     height: 433px !important;
     box-shadow: 0px 0px 29px rgba(0, 0, 0, 0.03);
-    margin: 0 7px !important;
+    margin: 5px;
     background: #fff;
     display: flex;
     flex-direction: column;
     position: relative;
+    transition: 0.5s ease;
+}
+
+.catalog-list .swiper-slide:hover {
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.5);
 }
 
 .catalog-list .swiper-slide .swiper-slide-img {
@@ -462,7 +491,7 @@ li span.toggle2 {
 }
 
 .catalog-list .swiper-slide .swiper-slide-desc {
-    width: 248px;
+    width: 85%;
     font-weight: 500;
     font-size: 14px;
     line-height: 20px;
@@ -596,35 +625,9 @@ li span.toggle2 {
     font-size: 14px;
     color: #757272;
     line-height: 27px;
-    width: 50%px;
+    width: 60%;
+    margin-bottom: 50px;
 }
-
-.about .about-desc .about-desc-button {
-    width: 345px;
-    height: 82px;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-    border-radius: 50px;
-    margin-top: 100px;
-}
-
-.about .about-desc .about-desc-button a {
-    width: 100%;
-    height: 100%;
-    display: block;
-    text-align: center;
-    line-height: 82px;
-    font-size: 19px;
-    font-weight: bold;
-    text-decoration: none;
-    color: #000000;
-}
-
-.about .about-desc .about-desc-button a i {
-    color: #FD351A;
-    margin-left: 40px;
-}
-
 
 .stone-list {
     display: flex;
@@ -779,14 +782,14 @@ li span.toggle2 {
 }
 
 .request .request-slide-social .request-social-fb,
-.request-social-inst {
+.request-social-inst, .request-social-google {
     width: 32px;
     height: 32px;
     border-radius: 50px;
 }
 
 .request .request-slide-social .request-social-fb:hover,
-.request-social-inst:hover {
+.request-social-inst:hover, .request-social-google:hover {
     background: #F7F7F7;
 }
 
@@ -966,6 +969,7 @@ li span.toggle2 {
 
 .footer .footer-subs .footer-form form {
     position: relative;
+    width: 80%;
 }
 
 .footer .footer-subs .footer-form input[type='email'] {
@@ -987,8 +991,8 @@ li span.toggle2 {
     background: #FF0000;
     border-radius: 26px;
     position: absolute;
-    top: 0px;
-    right: 25px;
+    top: 0;
+    right: 0;
     z-index: 2;
 }
 
@@ -1030,6 +1034,11 @@ li span.toggle2 {
     color: #fff;
 }
 
+.footer .footer-subs .footer-links ul li a:hover {
+    color: #FD351A;
+    transition: 0.4s ease;
+}
+
 .footer .footer-menu {
     align-self: center;
 }
@@ -1049,8 +1058,9 @@ li span.toggle2 {
     text-decoration: none;
 }
 
-.footer .footer-menu ul li:last-child a {
+.footer .footer-menu ul li a:hover {
     color: #FD351A;
+    transition: 0.4s ease;
 }
 
 .footer .footer-contact {
@@ -1944,6 +1954,12 @@ li span.toggle2 {
     top: 0;
     left: -10px;
     background-color: red;
+    z-index: -1;
+    transition: 0.5s ease;
+}
+
+.article-main .article-body .article-footer .article-footer-catalog:hover:before {
+    width: 50%;
 }
 
 .article-main .article-body .article-footer .article-footer-catalog a{

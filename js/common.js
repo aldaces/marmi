@@ -25,7 +25,7 @@ $(document).ready(function ($) {
         },
         breakpoints: {
             1200: {
-                slidesPerView: 3,
+                slidesPerView: 4,
             },
 
             992: {
@@ -74,7 +74,6 @@ $(document).ready(function ($) {
 $(document).ready(function ($) {
     var mySwiper3 = new Swiper('.slide-3', {
         slidesPerView: 1,
-        spaceBetween: 30,
         navigation: {
             nextEl: '.swiper-button-next-req',
             prevEl: '.swiper-button-prev-req'
@@ -86,8 +85,7 @@ $(document).ready(function ($) {
             },
 
             992: {
-                slidesPerView: 3,
-                centeredSlides: true
+                slidesPerView: 2,
             },
 
             768: {

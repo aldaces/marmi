@@ -12,6 +12,14 @@
         margin: 0 10px;
     }
 
+    .core-menu li {
+        margin: 0 15px;
+    }
+
+    .nav-tel {
+        width: 30%;
+    }
+
     .first .banner .banner-desc {
         padding-left: 50px;
     }
@@ -30,10 +38,7 @@
     }
 
     .first .social {
-        line-height: 50px;
-    }
-
-    .catalog-list .swiper-slide {
+        display: none;
     }
 
     .about .about-desc p {
@@ -47,6 +52,7 @@
     .advantages {
         margin-top: -25%;
         padding-left: 0;
+        width: 100%;
     }
 
     .advantages .advantages-title {
@@ -75,6 +81,10 @@
         margin: 0 auto;
     }
 
+    .about {
+        padding: 50px 0;
+    }
+
     .catalog-list {
         margin-top: 20%;
     }
@@ -82,6 +92,14 @@
     .catalog-list .swiper-slide .swiper-slide-img img {
         display: block;
         width: 100%;
+    }
+
+    .catalog-list .catalog-list-title .list-title-2 {
+        font-size: 25px;
+    }
+
+    .catalog-list .catalog-list-title {
+        padding: 2%;
     }
 
     .about .about-img .img-desc {
@@ -94,7 +112,7 @@
     }
 
     .request {
-        padding: 20px;
+        padding: 20px 100px;
     }
 
     .request .request-slider .swiper-slide {
@@ -107,16 +125,44 @@
 
     .footer {
         padding: 50px;
+        flex-wrap: wrap;
+    }
+
+    .footer-subs, .footer-menu, .footer-contact, .footer-instafeed {
+        flex: 0 0 50%;
     }
 
     .footer .footer-subs .footer-form .form-button {
         right: 21px;
     }
 
+    .article-main {
+        flex-wrap: wrap;
+    }
+
+    .article-main .article-body {
+        flex: 0 0 100%;
+    }
+
+    .article-main .article-body .article-body-img img {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .article-main .article-sidebar {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin: 30px auto;
+    }
+
+    .article-main .article-body .article-date {
+        padding-left: 20px;
+    }
+
 }
-
-
-
 
 
 /* Medium Devices, Desktops */
@@ -163,9 +209,6 @@
         font-size: 31px;
     }
 
-    .catalog-list .swiper-slide {
-    }
-
     .catalog-list .catalog-list-title .list-title-2 {
         font-size: 28px;
     }
@@ -190,6 +233,10 @@
     .about .about-img .img-desc {
         width: 50%;
         height: 25%;
+    }
+
+    .request {
+        padding: 20px;
     }
 
     .footer {
@@ -231,6 +278,19 @@
         font-size: 9px;
     }
 
+    .footer-subs, .footer-menu, .footer-contact, .footer-instafeed {
+        flex: 0 0 100%;
+    }
+
+    .article-main .article-sidebar {
+        justify-content: flex-start;
+        padding: 0 20px;
+    }
+
+    .article-main .article-sidebar .article-sidebar-popular {
+        width: 100%;
+    }
+
 }
 
 /* Small Devices, Tablets */
@@ -253,7 +313,7 @@
         color: #000;
     }
 
-    .first .banner .banner-desc .banner-button {
+    .first .banner .banner-desc .button {
         margin: 30px auto;
     }
 
@@ -278,10 +338,7 @@
 
     .catalog-list .swiper-slide {
         text-align: center;
-    }
-
-    .catalog-list .swiper-slide .swiper-slide-desc {
-        width: 100%;
+        margin: 0;
     }
 
     .about {
@@ -313,7 +370,7 @@
         text-align: center;
     }
 
-    .about .about-desc .about-desc-button {
+    .about .about-desc .button {
         margin: 30px auto;
     }
 
@@ -347,9 +404,17 @@
         font-size: 30px;
     }
 
+    .request .request-slide-social .request-social-fb, .request-social-inst, .request-social-google {
+        margin-right: 20px;
+    }
+
     .request .request-slide-desc {
         width: 90%;
         margin: 0 auto;
+    }
+    
+    .calculate {
+        padding: 20px 0;
     }
 
     .calculate .calculate-title {
@@ -372,12 +437,21 @@
         width: 90%;
     }
 
+    .footer .footer-subs .footer-form {
+        align-items: center;
+    }
+
     .footer .footer-subs .footer-form .form-button {
         width: 30%;
     }
 
     .footer .footer-contact {
         text-align: center;
+    }
+
+    .footer .footer-contact .footer-contact-phones::before, 
+    .footer-contact-email::before {
+        left: 35%;
     }
 
     .footer .footer-contact .footer-contact-social {
