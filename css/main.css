@@ -2128,10 +2128,10 @@ li span.toggle2 {
     justify-content: space-between;
 }
 
-.production .production-desc div:first-child,
+/* .production .production-desc div:first-child,
 .production .production-desc div:last-child{
     flex: 0 0 25%;
-}
+} */
 
 .production .production-desc div{
     flex: 0 0 15%;
