@@ -200,6 +200,60 @@
         margin: 25px auto;
     }
 
+    .popup {
+        left: 40%;
+    }
+
+    .articles {
+        max-width: 1000px;
+    }
+
+    .articles .article-item {
+        flex: 0 0 40%;
+        margin: 20px auto;
+    }
+
+    .vacancies {
+        max-width: 1000px;
+    }
+
+    .vacancies .vacancies-first .vacancies-first-desc {
+        flex: 0 0 40%;
+        margin-left: 15px;
+    }
+
+    .vacancies .vacancies-who .vacancies-who-title .vacancies-button {
+        width: 30%;
+    }
+
+    .accordion-container .accordion-box .jobs-button {
+        width: 90%;
+    }
+
+    .accordion-container .accordion-title .faq__text {
+        width: 89%;
+    }
+
+    .product-box {
+        padding: 0;
+        justify-content: flex-start;
+    }
+
+    .product-box .product-item {
+        flex: 0 0 30%;
+    }
+
+    .stone-box {
+        padding: 0;
+        margin: 20px auto;
+        max-width: 1000px;
+    }
+
+    .stone-box .stone-leftside {
+        flex: 0 0 50%;
+        padding: 0;
+    }
+
 }
 
 
@@ -354,6 +408,23 @@
     .contact .contact-info, 
     .contact .contact-write {
         flex: 0 0 95%;
+    }
+
+    .vacancies .vacancies-first {
+        flex-wrap: wrap;
+    }
+
+    .vacancies .vacancies-first .vacancies-first-foto {
+        justify-content: space-around;
+    }
+
+    .vacancies .vacancies-first .vacancies-first-desc {
+        flex: 0 0 90%;
+        margin: 10px auto;
+    }
+
+    .stone-box {
+        max-width: 900px;
     }
 
 }
@@ -539,6 +610,42 @@
     .portfolio .portfolio-work-slider .swiper-slide  img{
         display: block;
     }
+
+    .popup {
+        left: 40%;
+    }
+
+    .stone-box {
+        flex-wrap: wrap;
+    }
+
+    .stone-box .stone-leftside {
+        flex: 0 0 85%;
+        margin: 20px auto;
+    }
+
+    .stone-box .stone-catalog {
+        flex: 0 0 100%;
+    }
+
+    .stone-box .stone-leftside .stone-leftside-title {
+        width: 100%;
+    }
+    .stone-box .stone-leftside .stone-leftside-desc {
+        width: 100%;
+    }
+
+    .stone-box .stone-leftside .stone-leftside-button {
+        width: 100%;
+    }
+
+    .feedback .feedback-title {
+        font-size: 26px;
+    }
+
+    .feedback .feedback-form {
+        width: 80%;
+    }
 }
 
 /* Extra Small Devices, Phones */
@@ -712,6 +819,91 @@
     .footer .footer-subs .footer-form .form-button {
         right: 0;
     }
+
+    .production .production-desc div {
+        flex: 0 0 100%;
+    }
+
+    .production .production-desc .production-desc-img div {
+        flex: 0 0 100%;
+        margin: 10px auto;
+    }
+
+    .popup {
+        width: 100%;
+        margin: 0;
+        left: 0;
+    }
+
+    .articles .article-item {
+        flex: 0 0 95%;
+    }
+
+    .vacancies .vacancies-who .vacancies-who-title {
+        flex-wrap: wrap;
+    }
+
+    .vacancies .vacancies-who .vacancies-who-title .vacancies-button {
+        width: 100%;
+    }
+
+    .vacancies .vacancies-who .vacancies-who-title h3 {
+        font-size: 30px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .accordion-container .accordion-title {
+        height: 75px;
+        font-size: 20px;
+    }
+
+    .accordion-container .accordion-title .faq__text {
+        margin: 0;
+    }
+
+    .accordion-container .accordion-title .faq__spoiler {
+        line-height: 75px;
+    }
+
+    .accordion-container .accordion-box {
+        flex-wrap: wrap;
+    }
+
+    .accordion-container .accordion-box .jobs-list {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .accordion-container .accordion-title .faq__text {
+        width: 76%;
+        font-size: 16px;
+    }
+
+    .accordion-container .accordion-box .jobs-button {
+        width: 100%;
+    }
+
+    .accordion-container .accordion-box .accordion-img img {
+        display: block;
+        width: 100%;
+    }
+
+    .product-box .product-item {
+        flex: 0 0 45%;
+    }
+
+    .feedback .feedback-title {
+        text-align: center;
+    }
+
+    .feedback .feedback-form {
+        width: 95%;
+    }
+
+    .page-filter .button-group .button {
+        height: 40px;
+    }
 }
 
 @media only screen and (max-width : 480px) {
@@ -743,5 +935,23 @@
 
     .footer .footer-contact .footer-contact-phones::before, .footer-contact-email::before {
         left: 15%;
+    }
+
+    .articles .article-item {
+        flex: 0 0 95%;
+    }
+
+    .product-box .product-item {
+        flex: 0 0 95%;
+    }
+
+    .calculate .calculate-button a {
+        font-size: 18px;
+    }
+
+    .calculate .calculate-title {
+        width: 100%;
+        font-size: 18px;
+        line-height: 30px;
     }
 }

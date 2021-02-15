@@ -1534,6 +1534,7 @@ li span.toggle2 {
     font-family: inherit;
     font-weight: 600;
     margin-right: 10px;
+    border-radius: 0;
 }
 
 .page-filter .button-group .button.is-checked {
@@ -1845,6 +1846,7 @@ li span.toggle2 {
 
 .articles .article-item .article-img img {
     display: block;
+    width: 100%;
 }
 
 .articles .article-item .article-link .article-link-data {
@@ -2128,10 +2130,6 @@ li span.toggle2 {
     justify-content: space-between;
 }
 
-/* .production .production-desc div:first-child,
-.production .production-desc div:last-child{
-    flex: 0 0 25%;
-} */
 
 .production .production-desc div{
     flex: 0 0 15%;
@@ -2178,6 +2176,106 @@ li span.toggle2 {
 .production .production-desc .production-desc-img img {
     display: block;
     margin: 0 auto;
+}
+
+.popup-fade {
+	display: none;
+}
+.popup-fade:before {
+	content: '';
+	background: #000;
+	position: fixed; 
+	left: 0;
+	top: 0;
+	width: 100%; 
+	height: 100%;
+	opacity: 0.7;
+	z-index: 9999;
+}
+.popup {
+	position: fixed;
+	width: 670px;
+    height: 540px;
+    top: 20%;
+    left: 50%;
+    margin-top: -100px; /* Negative half of height. */
+    margin-left: -250px;	
+	background: #fff; 
+	z-index: 99999;
+	opacity: 1;
+}
+.popup-close {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+    font-size: 30px;
+    color: #000000;
+}
+
+.popup .popup-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+
+.popup .popup-body .popup-title {
+    font-size: 30px;
+    font-family: "MonsterratB";
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.popup .popup-body .popup-form {
+    width: 100%;
+}
+
+.popup .popup-body .popup-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.popup .popup-body .popup-form form input, button{
+    height: 67px;
+    width: 70%;
+    margin: 10px auto;
+    box-sizing: border-box;
+    font-family: inherit;
+    border: none;
+}
+
+.popup .popup-body .popup-form form input {
+    background-color: #F2F2F3;
+    padding-left: 20px;
+}
+
+.popup .popup-body .popup-form form input:focus {
+    outline: none;
+}
+
+.popup .popup-body .popup-form form input::placeholder {
+    font-size: 16px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.popup .popup-body .popup-form form button {
+    background: #FF0000;
+    color: #FFFFFF;
+    font-size: 19px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.popup .popup-body .popup-desc {
+    font-size: 19px;
+    text-align: center;
+}
+
+.popup .popup-body .popup-desc span {
+    display: block;
+    color: #FF0000;
 }
 
 .portfolio {
