@@ -2236,7 +2236,8 @@ li span.toggle2 {
     flex-direction: column;
 }
 
-.popup .popup-body .popup-form form input, button{
+.popup .popup-body .popup-form form input, 
+.popup .popup-body .popup-form form button{
     height: 67px;
     width: 70%;
     margin: 10px auto;
@@ -2558,4 +2559,132 @@ li span.toggle2 {
     line-height: 63px;
     color: #fff;
     text-decoration: none;
+}
+
+.request {
+    background: #E5E5E5;
+}
+
+.requests-box {
+    display: flex;
+    flex-direction: column;
+}
+
+.requests-box .requests-item {
+    display: flex;
+    border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+.requests-box .requests-item .requests-item-desc {
+    width: 50%;
+}
+
+.requests-box .requests-item .requests-item-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.requests-box .requests-item .requests-item-desc .requests-item-date {
+    font-size: 14px;
+    color: #6C6C6C;
+    margin: 10px 0;
+}
+
+.requests-box .requests-item 
+.requests-item-desc .requests-item-date::before {
+    content: '\f073';
+    font-family: "Font Awesome 5 Free";
+    color: #FD351A;
+}
+
+.requests-box .requests-item 
+.requests-item-desc .requests-item-text {
+    font-size: 14px;
+    color: #3E3939;
+}
+
+.requests-box .requests-item .requests-item-fotos-list {
+    display: flex;
+}
+
+.requests-box .requests-item .requests-item-fotos-list div {
+    margin-top: 10px;
+    margin-right: 15px;
+}
+
+.requests-form form{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 900px;
+}
+
+.requests-form .requests-form-title{
+    font-size: 34px;
+    color: #0D0D0D;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "MonsterratExB";
+}
+
+.requests-form input,
+.requests-form button {
+    height: 58px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-width: 0;
+    font-family: inherit;
+    padding-left: 20px;
+}
+
+.requests-form input:focus,
+.requests-form button:focus,
+.requests-form textarea:focus {
+    outline: none;
+}
+
+.requests-form textarea.textarea {
+    width: 100%;
+    height: 155px;
+    resize: none;
+    margin-top: 20px;
+    border-width: 0;
+    font-family: inherit;
+    padding-top: 20px;
+    padding-left: 20px;
+    box-sizing: border-box;
+}
+
+.requests-form .requests-form-group {
+    display: flex;
+}
+
+.requests-form .requests-form-group input:first-child,
+.requests-form .requests-form-group button:first-child {
+    margin-right: 30px;
+}
+
+.requests-form .requests-form-group input,
+.requests-form .requests-form-group button{
+    width: 50%;
+}
+
+.requests-form .requests-form-group button {
+    font-size: 17px;
+    font-family: "MonsterratB";
+    cursor: pointer;
+}
+
+.requests-form .requests-form-group .requests-button-down {
+    background: #F7F7F7;
+}
+
+.requests-form .requests-form-group .requests-button-down i {
+    color: #FF0000;
+}
+
+.requests-form .requests-form-group .requests-button-send {
+    background: #FF0000;
+    color: #ffffff;
 }

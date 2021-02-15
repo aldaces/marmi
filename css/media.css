@@ -254,6 +254,10 @@
         padding: 0;
     }
 
+    .requests-box .requests-item .requests-item-fotos {
+        width: 40%;
+    }
+
 }
 
 
@@ -645,6 +649,21 @@
 
     .feedback .feedback-form {
         width: 80%;
+    }
+
+    .requests-box .requests-item {
+        flex-wrap: wrap;
+    }
+
+    .requests-box .requests-item .requests-item-desc {
+        width: 100%;
+    }
+
+    .requests-box .requests-item .requests-item-fotos-list {
+        flex-wrap: wrap;
+    }
+    .requests-box .requests-item .requests-item-fotos {
+        width: 100%;
     }
 }
 
