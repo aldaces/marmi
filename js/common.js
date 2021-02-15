@@ -106,6 +106,7 @@ $(document).ready(function ($) {
 
 $(document).ready(function ($) {
     var swiper5 = new Swiper('.slide-5', {
+        slidesPerView: 1,
         navigation: {
             nextEl: '.swiper-button-next-port',
             prevEl: '.swiper-button-prev-port',

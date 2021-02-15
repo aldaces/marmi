@@ -188,6 +188,18 @@
         flex: 0 0 50%;
     }
 
+    .portfolio {
+        max-width: 1150px;
+    }
+
+    .portfolio .portfolio-galery .portfolio-galery-list {
+        justify-content: flex-start;
+    }
+
+    .portfolio .portfolio-galery .portfolio-galery-item {
+        margin: 25px auto;
+    }
+
 }
 
 
@@ -509,6 +521,23 @@
 
     .footer .footer-contact .footer-contact-social {
         justify-content: center;
+    }
+
+    .portfolio .portfolio-work {
+        flex-wrap: wrap;
+    }
+
+    .portfolio .portfolio-work .portfolio-work-desc {
+        width: 100%;
+    }
+
+    .portfolio .portfolio-work-slider {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .portfolio .portfolio-work-slider .swiper-slide  img{
+        display: block;
     }
 }
 
