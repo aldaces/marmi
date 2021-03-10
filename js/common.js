@@ -16,6 +16,16 @@ $(document).ready(function () {
     });
 });
 
+$(document).ready(function() {
+    $('.tabs__item:first-child').show();
+    $('.actions__item').click(function(event) {
+        event.preventDefault();
+        $(this).toggleClass('active').siblings().removeClass('active');
+        var id = $(this).attr('href');
+        $(id).fadeIn().siblings().fadeOut();
+    });
+  });
+
 $(document).ready(function ($) {
     var mySwiper1 = new Swiper('.slide-1', {
         slidesPerView: 1,
@@ -80,7 +90,7 @@ $(document).ready(function ($) {
         },
         breakpoints: {
             1200: {
-                slidesPerView: 3,
+                slidesPerView: 4,
                 spaceBetweenSlides: 30
             },
 
