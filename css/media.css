@@ -322,13 +322,15 @@
     }
 
     .about .about-img .img-desc span {
-        padding: 0;
+        padding: 15px;
         line-height: 22px;
+        width: 100%;
+        box-sizing: border-box;
     }
 
     .about .about-img .img-desc {
-        width: 50%;
-        height: 25%;
+        width: 35%;
+        height: 50%;
     }
 
     .request {
@@ -423,12 +425,17 @@
     }
 
     .vacancies .vacancies-first .vacancies-first-desc {
-        flex: 0 0 90%;
+        flex: 0 0 80%;
         margin: 10px auto;
     }
 
     .stone-box {
         max-width: 900px;
+    }
+
+    .footer .footer-instafeed .footer-instafeed-block>div {
+        margin: 5px auto;
+        flex: 0 0 0;
     }
 
 }
@@ -438,7 +445,7 @@
     .navbar {
         flex-wrap: wrap;
         height: 100%;
-        padding: 20px;
+        padding-top: 20px;
     }
 
     .first .banner .banner-desc {
@@ -695,11 +702,10 @@
         margin: auto;
         display: none;
         position: absolute;
-        top: 55px;
+        top: 50px;
     }
 
     .core-menu li {
-        width: 100%;
         display: block;
     }
 
@@ -810,7 +816,7 @@
     }
 
     .action-img::before {
-        left: 30%;
+        left: 20%;
     }
 
     .advantages {
@@ -823,7 +829,7 @@
     }
 
     .advantages .advantages-que {
-        width: 100%;
+        flex: 0 0 95%;
         margin: 10px;
     }
 
@@ -872,13 +878,13 @@
         margin: 0 auto;
     }
 
+    .accordion-container .accordion-box .jobs-list div {
+        flex: 0 0 100%;
+    }
+
     .accordion-container .accordion-title {
         height: 75px;
         font-size: 20px;
-    }
-
-    .accordion-container .accordion-title .faq__text {
-        margin: 0;
     }
 
     .accordion-container .accordion-title .faq__spoiler {
@@ -897,6 +903,8 @@
     .accordion-container .accordion-title .faq__text {
         width: 76%;
         font-size: 16px;
+        margin: 0;
+        padding-top: 10px;
     }
 
     .accordion-container .accordion-box .jobs-button {
@@ -950,6 +958,19 @@
 
     .article-sidebar .article-sidebar-popular .article-sidebar-list ul li a {
         font-size: 18px;
+    }
+
+    .about .about-img .img-desc {
+        top: -10%;
+    }
+
+    .about .about-img .img-desc {
+        width: 50%;
+        height: 50%;
+    }
+
+    .actions {
+        width: 100%;
     }
 
     .footer .footer-contact .footer-contact-phones::before, .footer-contact-email::before {
