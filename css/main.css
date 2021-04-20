@@ -146,10 +146,14 @@ li span.toggle2 {
     margin-right: 5px;
 }
 
-.nav-tel span:first-child {
+.nav-tel span:nth-child(-n+2) {
     font-size: 17px;
     font-weight: bold;
     margin: 5px;
+}
+
+.nav-tel span:nth-child(n+2) {
+    padding-left: 25px;
 }
 
 .nav-tel span:last-child {
