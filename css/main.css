@@ -593,10 +593,6 @@ li span.toggle2 {
     padding: 10px;
 }
 
-.actions__item.active{
-    /* background:#9c0; */
-}
-
 .actions a {
     position: relative;
 }
@@ -1628,10 +1624,6 @@ li span.toggle2 {
 
 .page-filter .stone-product-list .stone-product-item a img {
     margin-bottom: 10px;
-}
-
-.page-filter .stone-product-list .stone-product-item:hover {
-
 }
 
 .page-filter .stone-product-list .stone-product-item:hover a{
